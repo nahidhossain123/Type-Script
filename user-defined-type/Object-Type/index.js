@@ -7,4 +7,10 @@ student1 = {
     age: 27,
 };
 students.push(student1);
+var student2;
+student2 = {
+    userName: "Nikita Hossain",
+    age: 27,
+};
+students.push(student2);
 console.log("Student List:", students);
