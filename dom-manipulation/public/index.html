@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>User Registration</h1>
+    <form class="user-form">
+      <div><label>Name</label><input type="text" name="name" id="name" /></div>
+      <div>
+        <label>Email</label><input type="email" name="email" id="email" />
+      </div>
+      <div>
+        <label>Description</label>
+        <textarea name="address" id="address" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <label>Country</label>
+        <select name="country" id="country">
+          <option value="bangladesh">Bangladesh</option>
+          <option value="india">India</option>
+          <option value="pakistan">Pakistan</option>
+        </select>
+      </div>
+      <div><button type="submit">Save</button></div>
+    </form>
+    <script src="../dist/index.js"></script>
+  </body>
+</html>
